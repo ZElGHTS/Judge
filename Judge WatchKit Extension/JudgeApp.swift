@@ -1,19 +1,17 @@
-//
-//  JudgeApp.swift
-//  Judge WatchKit Extension
-//
-//  Created by Samuel Tessier on 2021-11-14.
-//
-
 import SwiftUI
 
 @main
 struct JudgeApp: App {
+    @StateObject var workoutManager: WorkoutManager = WorkoutManager()
+    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                InitialView()
+            }.sheet(isPresented: $workoutManager.showingSummaryView) {
+                SummaryView()
             }
+            .environmentObject(workoutManager)
         }
 
         WKNotificationScene(controller: NotificationController.self, category: "myCategory")
