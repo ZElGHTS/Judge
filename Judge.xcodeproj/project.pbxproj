@@ -1,0 +1,1205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E4E25C02741F7D200377EE2 /* JudgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25BF2741F7D200377EE2 /* JudgeApp.swift */; };
+		7E4E25C22741F7D200377EE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25C12741F7D200377EE2 /* ContentView.swift */; };
+		7E4E25C42741F7D300377EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E25C32741F7D300377EE2 /* Assets.xcassets */; };
+		7E4E25C72741F7D300377EE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E25C62741F7D300377EE2 /* Preview Assets.xcassets */; };
+		7E4E25D12741F7D300377EE2 /* JudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25D02741F7D300377EE2 /* JudgeTests.swift */; };
+		7E4E25DB2741F7D300377EE2 /* JudgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25DA2741F7D300377EE2 /* JudgeUITests.swift */; };
+		7E4E25DD2741F7D300377EE2 /* JudgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25DC2741F7D300377EE2 /* JudgeUITestsLaunchTests.swift */; };
+		7E4E25E12741F7D300377EE2 /* Judge WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E4E25E02741F7D300377EE2 /* Judge WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E4E25E62741F7D400377EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E25E52741F7D400377EE2 /* Assets.xcassets */; };
+		7E4E25EC2741F7D400377EE2 /* Judge WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E4E25EB2741F7D400377EE2 /* Judge WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E4E25F12741F7D400377EE2 /* JudgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25F02741F7D400377EE2 /* JudgeApp.swift */; };
+		7E4E25F32741F7D400377EE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25F22741F7D400377EE2 /* ContentView.swift */; };
+		7E4E25F52741F7D400377EE2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25F42741F7D400377EE2 /* NotificationController.swift */; };
+		7E4E25F72741F7D400377EE2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25F62741F7D400377EE2 /* NotificationView.swift */; };
+		7E4E25F92741F7D400377EE2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25F82741F7D400377EE2 /* ComplicationController.swift */; };
+		7E4E25FB2741F7D500377EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E25FA2741F7D500377EE2 /* Assets.xcassets */; };
+		7E4E25FE2741F7D500377EE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E25FD2741F7D500377EE2 /* Preview Assets.xcassets */; };
+		7E4E260A2741F7D500377EE2 /* Judge_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26092741F7D500377EE2 /* Judge_WatchKit_AppTests.swift */; };
+		7E4E26142741F7D500377EE2 /* Judge_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26132741F7D500377EE2 /* Judge_WatchKit_AppUITests.swift */; };
+		7E4E26162741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26152741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E4E25CD2741F7D300377EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4E25B42741F7D200377EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4E25BB2741F7D200377EE2;
+			remoteInfo = Judge;
+		};
+		7E4E25D72741F7D300377EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4E25B42741F7D200377EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4E25BB2741F7D200377EE2;
+			remoteInfo = Judge;
+		};
+		7E4E25E22741F7D300377EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4E25B42741F7D200377EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4E25DF2741F7D300377EE2;
+			remoteInfo = "Judge WatchKit App";
+		};
+		7E4E25ED2741F7D400377EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4E25B42741F7D200377EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4E25EA2741F7D400377EE2;
+			remoteInfo = "Judge WatchKit Extension";
+		};
+		7E4E26062741F7D500377EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4E25B42741F7D200377EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4E25EA2741F7D400377EE2;
+			remoteInfo = "Judge WatchKit Extension";
+		};
+		7E4E26102741F7D500377EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4E25B42741F7D200377EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4E25DF2741F7D300377EE2;
+			remoteInfo = "Judge WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E4E261C2741F7D500377EE2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E4E25EC2741F7D400377EE2 /* Judge WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E26202741F7D500377EE2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7E4E25E12741F7D300377EE2 /* Judge WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E4E25BC2741F7D200377EE2 /* Judge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Judge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4E25BF2741F7D200377EE2 /* JudgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeApp.swift; sourceTree = "<group>"; };
+		7E4E25C12741F7D200377EE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E4E25C32741F7D300377EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E4E25C62741F7D300377EE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E4E25CC2741F7D300377EE2 /* JudgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4E25D02741F7D300377EE2 /* JudgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeTests.swift; sourceTree = "<group>"; };
+		7E4E25D62741F7D300377EE2 /* JudgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4E25DA2741F7D300377EE2 /* JudgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeUITests.swift; sourceTree = "<group>"; };
+		7E4E25DC2741F7D300377EE2 /* JudgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E4E25E02741F7D300377EE2 /* Judge WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Judge WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4E25E52741F7D400377EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E4E25EB2741F7D400377EE2 /* Judge WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Judge WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4E25F02741F7D400377EE2 /* JudgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeApp.swift; sourceTree = "<group>"; };
+		7E4E25F22741F7D400377EE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E4E25F42741F7D400377EE2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7E4E25F62741F7D400377EE2 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		7E4E25F82741F7D400377EE2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7E4E25FA2741F7D500377EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E4E25FD2741F7D500377EE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E4E25FF2741F7D500377EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4E26002741F7D500377EE2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7E4E26052741F7D500377EE2 /* Judge WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Judge WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4E26092741F7D500377EE2 /* Judge_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judge_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		7E4E260F2741F7D500377EE2 /* Judge WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Judge WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4E26132741F7D500377EE2 /* Judge_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judge_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		7E4E26152741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judge_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4E25B92741F7D200377EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25C92741F7D300377EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25D32741F7D300377EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25E82741F7D400377EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E26022741F7D500377EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E260C2741F7D500377EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4E25B32741F7D200377EE2 = {
+			isa = PBXGroup;
+			children = (
+				7E4E25BE2741F7D200377EE2 /* Judge */,
+				7E4E25CF2741F7D300377EE2 /* JudgeTests */,
+				7E4E25D92741F7D300377EE2 /* JudgeUITests */,
+				7E4E25E42741F7D300377EE2 /* Judge WatchKit App */,
+				7E4E25EF2741F7D400377EE2 /* Judge WatchKit Extension */,
+				7E4E26082741F7D500377EE2 /* Judge WatchKit AppTests */,
+				7E4E26122741F7D500377EE2 /* Judge WatchKit AppUITests */,
+				7E4E25BD2741F7D200377EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E4E25BD2741F7D200377EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25BC2741F7D200377EE2 /* Judge.app */,
+				7E4E25CC2741F7D300377EE2 /* JudgeTests.xctest */,
+				7E4E25D62741F7D300377EE2 /* JudgeUITests.xctest */,
+				7E4E25E02741F7D300377EE2 /* Judge WatchKit App.app */,
+				7E4E25EB2741F7D400377EE2 /* Judge WatchKit Extension.appex */,
+				7E4E26052741F7D500377EE2 /* Judge WatchKit AppTests.xctest */,
+				7E4E260F2741F7D500377EE2 /* Judge WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E4E25BE2741F7D200377EE2 /* Judge */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25BF2741F7D200377EE2 /* JudgeApp.swift */,
+				7E4E25C12741F7D200377EE2 /* ContentView.swift */,
+				7E4E25C32741F7D300377EE2 /* Assets.xcassets */,
+				7E4E25C52741F7D300377EE2 /* Preview Content */,
+			);
+			path = Judge;
+			sourceTree = "<group>";
+		};
+		7E4E25C52741F7D300377EE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25C62741F7D300377EE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E4E25CF2741F7D300377EE2 /* JudgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25D02741F7D300377EE2 /* JudgeTests.swift */,
+			);
+			path = JudgeTests;
+			sourceTree = "<group>";
+		};
+		7E4E25D92741F7D300377EE2 /* JudgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25DA2741F7D300377EE2 /* JudgeUITests.swift */,
+				7E4E25DC2741F7D300377EE2 /* JudgeUITestsLaunchTests.swift */,
+			);
+			path = JudgeUITests;
+			sourceTree = "<group>";
+		};
+		7E4E25E42741F7D300377EE2 /* Judge WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25E52741F7D400377EE2 /* Assets.xcassets */,
+			);
+			path = "Judge WatchKit App";
+			sourceTree = "<group>";
+		};
+		7E4E25EF2741F7D400377EE2 /* Judge WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25F02741F7D400377EE2 /* JudgeApp.swift */,
+				7E4E25F22741F7D400377EE2 /* ContentView.swift */,
+				7E4E25F42741F7D400377EE2 /* NotificationController.swift */,
+				7E4E25F62741F7D400377EE2 /* NotificationView.swift */,
+				7E4E25F82741F7D400377EE2 /* ComplicationController.swift */,
+				7E4E25FA2741F7D500377EE2 /* Assets.xcassets */,
+				7E4E25FF2741F7D500377EE2 /* Info.plist */,
+				7E4E26002741F7D500377EE2 /* PushNotificationPayload.apns */,
+				7E4E25FC2741F7D500377EE2 /* Preview Content */,
+			);
+			path = "Judge WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7E4E25FC2741F7D500377EE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E25FD2741F7D500377EE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E4E26082741F7D500377EE2 /* Judge WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E26092741F7D500377EE2 /* Judge_WatchKit_AppTests.swift */,
+			);
+			path = "Judge WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		7E4E26122741F7D500377EE2 /* Judge WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E26132741F7D500377EE2 /* Judge_WatchKit_AppUITests.swift */,
+				7E4E26152741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Judge WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E4E25BB2741F7D200377EE2 /* Judge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E26212741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge" */;
+			buildPhases = (
+				7E4E25B82741F7D200377EE2 /* Sources */,
+				7E4E25B92741F7D200377EE2 /* Frameworks */,
+				7E4E25BA2741F7D200377EE2 /* Resources */,
+				7E4E26202741F7D500377EE2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4E25E32741F7D300377EE2 /* PBXTargetDependency */,
+			);
+			name = Judge;
+			productName = Judge;
+			productReference = 7E4E25BC2741F7D200377EE2 /* Judge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E4E25CB2741F7D300377EE2 /* JudgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E26242741F7D500377EE2 /* Build configuration list for PBXNativeTarget "JudgeTests" */;
+			buildPhases = (
+				7E4E25C82741F7D300377EE2 /* Sources */,
+				7E4E25C92741F7D300377EE2 /* Frameworks */,
+				7E4E25CA2741F7D300377EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4E25CE2741F7D300377EE2 /* PBXTargetDependency */,
+			);
+			name = JudgeTests;
+			productName = JudgeTests;
+			productReference = 7E4E25CC2741F7D300377EE2 /* JudgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E4E25D52741F7D300377EE2 /* JudgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E26272741F7D500377EE2 /* Build configuration list for PBXNativeTarget "JudgeUITests" */;
+			buildPhases = (
+				7E4E25D22741F7D300377EE2 /* Sources */,
+				7E4E25D32741F7D300377EE2 /* Frameworks */,
+				7E4E25D42741F7D300377EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4E25D82741F7D300377EE2 /* PBXTargetDependency */,
+			);
+			name = JudgeUITests;
+			productName = JudgeUITests;
+			productReference = 7E4E25D62741F7D300377EE2 /* JudgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7E4E25DF2741F7D300377EE2 /* Judge WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E261D2741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit App" */;
+			buildPhases = (
+				7E4E25DE2741F7D300377EE2 /* Resources */,
+				7E4E261C2741F7D500377EE2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4E25EE2741F7D400377EE2 /* PBXTargetDependency */,
+			);
+			name = "Judge WatchKit App";
+			productName = "Judge WatchKit App";
+			productReference = 7E4E25E02741F7D300377EE2 /* Judge WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7E4E25EA2741F7D400377EE2 /* Judge WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E26192741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit Extension" */;
+			buildPhases = (
+				7E4E25E72741F7D400377EE2 /* Sources */,
+				7E4E25E82741F7D400377EE2 /* Frameworks */,
+				7E4E25E92741F7D400377EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Judge WatchKit Extension";
+			productName = "Judge WatchKit Extension";
+			productReference = 7E4E25EB2741F7D400377EE2 /* Judge WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		7E4E26042741F7D500377EE2 /* Judge WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E262A2741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit AppTests" */;
+			buildPhases = (
+				7E4E26012741F7D500377EE2 /* Sources */,
+				7E4E26022741F7D500377EE2 /* Frameworks */,
+				7E4E26032741F7D500377EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4E26072741F7D500377EE2 /* PBXTargetDependency */,
+			);
+			name = "Judge WatchKit AppTests";
+			productName = "Judge WatchKit AppTests";
+			productReference = 7E4E26052741F7D500377EE2 /* Judge WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E4E260E2741F7D500377EE2 /* Judge WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4E262D2741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit AppUITests" */;
+			buildPhases = (
+				7E4E260B2741F7D500377EE2 /* Sources */,
+				7E4E260C2741F7D500377EE2 /* Frameworks */,
+				7E4E260D2741F7D500377EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4E26112741F7D500377EE2 /* PBXTargetDependency */,
+			);
+			name = "Judge WatchKit AppUITests";
+			productName = "Judge WatchKit AppUITests";
+			productReference = 7E4E260F2741F7D500377EE2 /* Judge WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E4E25B42741F7D200377EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7E4E25BB2741F7D200377EE2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7E4E25CB2741F7D300377EE2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7E4E25BB2741F7D200377EE2;
+					};
+					7E4E25D52741F7D300377EE2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7E4E25BB2741F7D200377EE2;
+					};
+					7E4E25DF2741F7D300377EE2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7E4E25EA2741F7D400377EE2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7E4E26042741F7D500377EE2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7E4E25EA2741F7D400377EE2;
+					};
+					7E4E260E2741F7D500377EE2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7E4E25DF2741F7D300377EE2;
+					};
+				};
+			};
+			buildConfigurationList = 7E4E25B72741F7D200377EE2 /* Build configuration list for PBXProject "Judge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E4E25B32741F7D200377EE2;
+			productRefGroup = 7E4E25BD2741F7D200377EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E4E25BB2741F7D200377EE2 /* Judge */,
+				7E4E25CB2741F7D300377EE2 /* JudgeTests */,
+				7E4E25D52741F7D300377EE2 /* JudgeUITests */,
+				7E4E25DF2741F7D300377EE2 /* Judge WatchKit App */,
+				7E4E25EA2741F7D400377EE2 /* Judge WatchKit Extension */,
+				7E4E26042741F7D500377EE2 /* Judge WatchKit AppTests */,
+				7E4E260E2741F7D500377EE2 /* Judge WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E4E25BA2741F7D200377EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E25C72741F7D300377EE2 /* Preview Assets.xcassets in Resources */,
+				7E4E25C42741F7D300377EE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25CA2741F7D300377EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25D42741F7D300377EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25DE2741F7D300377EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E25E62741F7D400377EE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25E92741F7D400377EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E25FE2741F7D500377EE2 /* Preview Assets.xcassets in Resources */,
+				7E4E25FB2741F7D500377EE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E26032741F7D500377EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E260D2741F7D500377EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4E25B82741F7D200377EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E25C22741F7D200377EE2 /* ContentView.swift in Sources */,
+				7E4E25C02741F7D200377EE2 /* JudgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25C82741F7D300377EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E25D12741F7D300377EE2 /* JudgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25D22741F7D300377EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E25DD2741F7D300377EE2 /* JudgeUITestsLaunchTests.swift in Sources */,
+				7E4E25DB2741F7D300377EE2 /* JudgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E25E72741F7D400377EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E25F52741F7D400377EE2 /* NotificationController.swift in Sources */,
+				7E4E25F32741F7D400377EE2 /* ContentView.swift in Sources */,
+				7E4E25F92741F7D400377EE2 /* ComplicationController.swift in Sources */,
+				7E4E25F12741F7D400377EE2 /* JudgeApp.swift in Sources */,
+				7E4E25F72741F7D400377EE2 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E26012741F7D500377EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E260A2741F7D500377EE2 /* Judge_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E260B2741F7D500377EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E26142741F7D500377EE2 /* Judge_WatchKit_AppUITests.swift in Sources */,
+				7E4E26162741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E4E25CE2741F7D300377EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4E25BB2741F7D200377EE2 /* Judge */;
+			targetProxy = 7E4E25CD2741F7D300377EE2 /* PBXContainerItemProxy */;
+		};
+		7E4E25D82741F7D300377EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4E25BB2741F7D200377EE2 /* Judge */;
+			targetProxy = 7E4E25D72741F7D300377EE2 /* PBXContainerItemProxy */;
+		};
+		7E4E25E32741F7D300377EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4E25DF2741F7D300377EE2 /* Judge WatchKit App */;
+			targetProxy = 7E4E25E22741F7D300377EE2 /* PBXContainerItemProxy */;
+		};
+		7E4E25EE2741F7D400377EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4E25EA2741F7D400377EE2 /* Judge WatchKit Extension */;
+			targetProxy = 7E4E25ED2741F7D400377EE2 /* PBXContainerItemProxy */;
+		};
+		7E4E26072741F7D500377EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4E25EA2741F7D400377EE2 /* Judge WatchKit Extension */;
+			targetProxy = 7E4E26062741F7D500377EE2 /* PBXContainerItemProxy */;
+		};
+		7E4E26112741F7D500377EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4E25DF2741F7D300377EE2 /* Judge WatchKit App */;
+			targetProxy = 7E4E26102741F7D500377EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E4E26172741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E4E26182741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7E4E261A2741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Judge WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Judge WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Judge WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		7E4E261B2741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Judge WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Judge WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Judge WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		7E4E261E2741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Judge_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Judge WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Numan.Judge;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		7E4E261F2741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Judge_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Judge WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Numan.Judge;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		7E4E26222741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Judge/Preview Content\"";
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E4E26232741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Judge/Preview Content\"";
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4E26252741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.JudgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Judge.app/Judge";
+			};
+			name = Debug;
+		};
+		7E4E26262741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.JudgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Judge.app/Judge";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4E26282741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.JudgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Judge;
+			};
+			name = Debug;
+		};
+		7E4E26292741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.JudgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Judge;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4E262B2741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Numan.Judge-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Judge WatchKit Extension.appex/Judge WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		7E4E262C2741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Numan.Judge-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Judge WatchKit Extension.appex/Judge WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		7E4E262E2741F7D500377EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Numan.Judge-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Judge WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		7E4E262F2741F7D500377EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3VGYLCVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Numan.Judge-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Judge WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4E25B72741F7D200377EE2 /* Build configuration list for PBXProject "Judge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E26172741F7D500377EE2 /* Debug */,
+				7E4E26182741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E26192741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E261A2741F7D500377EE2 /* Debug */,
+				7E4E261B2741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E261D2741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E261E2741F7D500377EE2 /* Debug */,
+				7E4E261F2741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E26212741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E26222741F7D500377EE2 /* Debug */,
+				7E4E26232741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E26242741F7D500377EE2 /* Build configuration list for PBXNativeTarget "JudgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E26252741F7D500377EE2 /* Debug */,
+				7E4E26262741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E26272741F7D500377EE2 /* Build configuration list for PBXNativeTarget "JudgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E26282741F7D500377EE2 /* Debug */,
+				7E4E26292741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E262A2741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E262B2741F7D500377EE2 /* Debug */,
+				7E4E262C2741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4E262D2741F7D500377EE2 /* Build configuration list for PBXNativeTarget "Judge WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4E262E2741F7D500377EE2 /* Debug */,
+				7E4E262F2741F7D500377EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E4E25B42741F7D200377EE2 /* Project object */;
+}
