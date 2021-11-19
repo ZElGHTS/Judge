@@ -12,6 +12,8 @@ struct SummaryView: View {
         formatter.zeroFormattingBehavior = .pad
         return formatter
     }()
+    let viewModel = ConnectionViewModel(connectionProvider: ConnectionProvider())
+    let provider = ConnectionProvider()
     
     var body: some View {
         if workoutManager.workout == nil {
@@ -33,7 +35,8 @@ struct SummaryView: View {
                         .frame(width: 50, height: 50)
                     HStack {
                         Button("Share") {
-                            //@ObservedObject var test = TrainingDataModel()
+                            let model = TrainingModel(viewModel: viewModel, time: getTotalTime(), distance: getTotalDistance(), energy: getTotalEnergy(), heartRate: getAverageHR())
+                            model.sendData()
                             dismiss()
                         }
                         Button("Done") {
@@ -45,6 +48,9 @@ struct SummaryView: View {
             }
             .navigationTitle("Summary")
             .navigationBarTitleDisplayMode(.inline)
+            .onAppear {
+                provider.connect()
+            }
         }
     }
     

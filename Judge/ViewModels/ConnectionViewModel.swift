@@ -1,6 +1,8 @@
 import UIKit
 
-final class ProgramViewModel: ObservableObject {
+// This exist on the iphone side and watch side
+
+final class ConnectionViewModel: ObservableObject {
 
     private(set) var provider: ConnectionProvider
     

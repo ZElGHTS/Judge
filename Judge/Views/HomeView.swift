@@ -3,22 +3,22 @@ import WatchConnectivity
 
 struct HomeView: View {
     
-    let viewModel = ProgramViewModel(connectionProvider: ConnectionProvider())
-    let connect = ConnectionProvider()
+    let viewModel = ConnectionViewModel(connectionProvider: ConnectionProvider())
+    //let provider = ConnectionProvider()
     
     var body: some View {
         NavigationView {
             VStack {
                 Text("Home View")
                     .padding()
-                NavigationLink(destination: ProgramView(viewModel: viewModel)) {
+                NavigationLink(destination: ReceivedDataView(viewModel: viewModel)) {
                     Text("Training Data Receiver")
                 }
             }
         }
-        .onAppear {
-            connect.connect()
-        }
+        /*.onAppear {
+            provider.connect()
+        }*/
     }
 }
 

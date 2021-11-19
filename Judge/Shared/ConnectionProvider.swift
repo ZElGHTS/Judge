@@ -54,11 +54,11 @@ class ConnectionProvider: NSObject, WCSessionDelegate {
     }
     #endif
     
-    func initFakeData() {
+    func initDataTransfer(time: String, distance: String, energy: String, heartRate: String) {
         trainingData.removeAll()
         
         let dataObj = TrainingData()
-        dataObj.initCustom(time: "00:38:45", distance: "58.46 M", energy: "397 CAL", heartRate: "89 BPM")
+        dataObj.initCustom(time: time, distance: distance, energy: energy, heartRate: heartRate)
         trainingData.append(dataObj)
         
         NSKeyedArchiver.setClassName("TrainingData", for: TrainingData.self)
@@ -81,5 +81,21 @@ class ConnectionProvider: NSObject, WCSessionDelegate {
         }
         
         lastTransfer = CFAbsoluteTimeGetCurrent()
+    }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        print("entered didReceiveMessage")
+        
+        if(message["trainingData"] != nil) {
+            let loadedMessage = message["trainingData"]
+            print("training data no reply handler")
+            
+            NSKeyedUnarchiver.setClass(TrainingData.self, forClassName: "TrainingData")
+            
+            let loadedData = try! NSKeyedUnarchiver.unarchivedArrayOfObjects(ofClasses: [TrainingData.self], from: loadedMessage as! Data) as? [TrainingData]
+            
+            self.receivedTrainingData = loadedData!
+            print("data received")
+        }
     }
 }

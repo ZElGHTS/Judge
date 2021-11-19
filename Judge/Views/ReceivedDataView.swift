@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ProgView: View {
+struct dataInfo: View {
     var training: TrainingData
     
     var body: some View {
@@ -21,8 +21,8 @@ struct ProgView: View {
     }
 }
 
-struct ProgramView: View {
-    @ObservedObject var viewModel: ProgramViewModel
+struct ReceivedDataView: View {
+    @ObservedObject var viewModel: ConnectionViewModel
     @State var trainingData: [TrainingData] = []
     
     var body: some View {
@@ -30,13 +30,12 @@ struct ProgramView: View {
             Text("Last training Data")
             
             List(trainingData, id: \.self) { data in
-                ProgView(training: data)
+                dataInfo(training: data)
             }
         }
         .onAppear {
             viewModel.provider.connect()
-            viewModel.provider.initFakeData()
-            self.trainingData = viewModel.provider.trainingData
+            self.trainingData = viewModel.provider.receivedTrainingData
         }
     }
 }
