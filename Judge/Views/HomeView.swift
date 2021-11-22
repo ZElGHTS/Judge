@@ -7,6 +7,7 @@ struct HomeView: View {
     //let provider = ConnectionProvider()
     
     var body: some View {
+        // ReceivedDataView(viewModel: viewModel)
         NavigationView {
             VStack {
                 Text("Home View")
@@ -16,9 +17,6 @@ struct HomeView: View {
                 }
             }
         }
-        /*.onAppear {
-            provider.connect()
-        }*/
     }
 }
 

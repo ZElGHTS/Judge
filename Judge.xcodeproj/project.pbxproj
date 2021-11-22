@@ -184,6 +184,7 @@
 		7E4E266E2741FF2800377EE2 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		7E4E26702741FF4700377EE2 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		7E4E26792742070900377EE2 /* Judge WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Judge WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		7E81FFCB2748597B004EDE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7E9859A1274551270081DC0F /* TrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -269,6 +270,7 @@
 		7E4E25BE2741F7D200377EE2 /* Judge */ = {
 			isa = PBXGroup;
 			children = (
+				7E81FFCB2748597B004EDE72 /* Info.plist */,
 				7E98599B27453DB40081DC0F /* Shared */,
 				7E4E26322741F83100377EE2 /* Models */,
 				7E4E26312741F82800377EE2 /* ViewModels */,
@@ -324,8 +326,8 @@
 				7E4E25F42741F7D400377EE2 /* NotificationController.swift */,
 				7E4E25F62741F7D400377EE2 /* NotificationView.swift */,
 				7E4E25F82741F7D400377EE2 /* ComplicationController.swift */,
-				7E4E25FA2741F7D500377EE2 /* Assets.xcassets */,
 				7E4E25FF2741F7D500377EE2 /* Info.plist */,
+				7E4E25FA2741F7D500377EE2 /* Assets.xcassets */,
 				7E4E26002741F7D500377EE2 /* PushNotificationPayload.apns */,
 				7E4E25FC2741F7D500377EE2 /* Preview Content */,
 			);
@@ -1055,7 +1057,7 @@
 				DEVELOPMENT_TEAM = J3VGYLCVWG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Judge_WatchKit_Extension;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Numan.Judge;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge.watchkitapp;
@@ -1080,7 +1082,7 @@
 				DEVELOPMENT_TEAM = J3VGYLCVWG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Judge_WatchKit_Extension;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Numan.Judge;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Numan.Judge.watchkitapp;
@@ -1106,11 +1108,14 @@
 				DEVELOPMENT_TEAM = J3VGYLCVWG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Judge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1137,11 +1142,14 @@
 				DEVELOPMENT_TEAM = J3VGYLCVWG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Judge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

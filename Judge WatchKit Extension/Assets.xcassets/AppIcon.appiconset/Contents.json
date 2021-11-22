@@ -27,6 +27,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "66.png",
       "idiom" : "watch",
       "role" : "notificationCenter",
       "scale" : "2x",
@@ -62,6 +63,7 @@
       "subtype" : "44mm"
     },
     {
+      "filename" : "logo.png",
       "idiom" : "watch",
       "role" : "appLauncher",
       "scale" : "2x",
