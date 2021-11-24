@@ -1,22 +1,9 @@
 import SwiftUI
-import WatchConnectivity
 
 struct HomeView: View {
-    
-    let viewModel = ConnectionViewModel(connectionProvider: ConnectionProvider())
-    //let provider = ConnectionProvider()
-    
     var body: some View {
-        // ReceivedDataView(viewModel: viewModel)
-        NavigationView {
-            VStack {
-                Text("Home View")
-                    .padding()
-                NavigationLink(destination: ReceivedDataView(viewModel: viewModel)) {
-                    Text("Training Data Receiver")
-                }
-            }
-        }
+        // Check if saved data is empty ? MessageEmptyView : List of the saved data
+        MessageEmptyView(title: "Nothing to see here...", message: "You don't have any workout saved! \nGo to the receive tab to save the latest of your workouts.", icon: "moon.zzz")
     }
 }
 

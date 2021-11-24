@@ -29,11 +29,11 @@
 		7E4E26162741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26152741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift */; };
 		7E4E26362741F8AB00377EE2 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26352741F8AB00377EE2 /* AppImage.swift */; };
 		7E4E26382741F8E800377EE2 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26372741F8E800377EE2 /* MainNavigationView.swift */; };
-		7E4E263A2741F90100377EE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26392741F90100377EE2 /* HomeView.swift */; };
+		7E4E263A2741F90100377EE2 /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26392741F90100377EE2 /* ReceiveView.swift */; };
 		7E4E263C2741F93A00377EE2 /* ConnectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263B2741F93A00377EE2 /* ConnectionViewModel.swift */; };
 		7E4E263E2741F95A00377EE2 /* ConnectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263D2741F95A00377EE2 /* ConnectionProvider.swift */; };
 		7E4E26402741F97800377EE2 /* TrainingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263F2741F97800377EE2 /* TrainingData.swift */; };
-		7E4E26422741F9B600377EE2 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26412741F9B600377EE2 /* RecordsView.swift */; };
+		7E4E26422741F9B600377EE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26412741F9B600377EE2 /* HomeView.swift */; };
 		7E4E26442741F9C600377EE2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26432741F9C600377EE2 /* SettingsView.swift */; };
 		7E4E26462741F9D500377EE2 /* ReceivedDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26452741F9D500377EE2 /* ReceivedDataView.swift */; };
 		7E4E26502741FCB900377EE2 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E264F2741FCB900377EE2 /* ActivityManager.swift */; };
@@ -53,6 +53,7 @@
 		7E4E266D2741FEF500377EE2 /* ButtonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E266C2741FEF500377EE2 /* ButtonRowView.swift */; };
 		7E4E266F2741FF2800377EE2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E266E2741FF2800377EE2 /* Image.swift */; };
 		7E4E26712741FF4700377EE2 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26702741FF4700377EE2 /* ElapsedTimeView.swift */; };
+		7E72B37B274E7DFB00D03CEF /* MessageEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E72B37A274E7DFB00D03CEF /* MessageEmptyView.swift */; };
 		7E98599C2745401B0081DC0F /* ConnectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263D2741F95A00377EE2 /* ConnectionProvider.swift */; };
 		7E98599D2745401B0081DC0F /* TrainingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263F2741F97800377EE2 /* TrainingData.swift */; };
 		7E98599E2745401B0081DC0F /* ConnectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263B2741F93A00377EE2 /* ConnectionViewModel.swift */; };
@@ -159,11 +160,11 @@
 		7E4E26152741F7D500377EE2 /* Judge_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judge_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7E4E26352741F8AB00377EE2 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
 		7E4E26372741F8E800377EE2 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
-		7E4E26392741F90100377EE2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7E4E26392741F90100377EE2 /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
 		7E4E263B2741F93A00377EE2 /* ConnectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewModel.swift; sourceTree = "<group>"; };
 		7E4E263D2741F95A00377EE2 /* ConnectionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionProvider.swift; sourceTree = "<group>"; };
 		7E4E263F2741F97800377EE2 /* TrainingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingData.swift; sourceTree = "<group>"; };
-		7E4E26412741F9B600377EE2 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		7E4E26412741F9B600377EE2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7E4E26432741F9C600377EE2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7E4E26452741F9D500377EE2 /* ReceivedDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedDataView.swift; sourceTree = "<group>"; };
 		7E4E264F2741FCB900377EE2 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
@@ -184,6 +185,7 @@
 		7E4E266E2741FF2800377EE2 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		7E4E26702741FF4700377EE2 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		7E4E26792742070900377EE2 /* Judge WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Judge WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		7E72B37A274E7DFB00D03CEF /* MessageEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEmptyView.swift; sourceTree = "<group>"; };
 		7E81FFCB2748597B004EDE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7E9859A1274551270081DC0F /* TrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -364,10 +366,9 @@
 			children = (
 				7E4E26342741F88C00377EE2 /* Navigation */,
 				7E4E26332741F87C00377EE2 /* Helpers */,
-				7E4E26392741F90100377EE2 /* HomeView.swift */,
-				7E4E26412741F9B600377EE2 /* RecordsView.swift */,
+				7E4E26392741F90100377EE2 /* ReceiveView.swift */,
+				7E4E26412741F9B600377EE2 /* HomeView.swift */,
 				7E4E26432741F9C600377EE2 /* SettingsView.swift */,
-				7E4E26452741F9D500377EE2 /* ReceivedDataView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -390,8 +391,10 @@
 		7E4E26332741F87C00377EE2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				7E4E26452741F9D500377EE2 /* ReceivedDataView.swift */,
 				7E4E25C12741F7D200377EE2 /* SplashScreenView.swift */,
 				7E4E26352741F8AB00377EE2 /* AppImage.swift */,
+				7E72B37A274E7DFB00D03CEF /* MessageEmptyView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -755,11 +758,12 @@
 				7E4E263E2741F95A00377EE2 /* ConnectionProvider.swift in Sources */,
 				7E4E25C02741F7D200377EE2 /* JudgeApp.swift in Sources */,
 				7E4E26462741F9D500377EE2 /* ReceivedDataView.swift in Sources */,
-				7E4E26422741F9B600377EE2 /* RecordsView.swift in Sources */,
+				7E72B37B274E7DFB00D03CEF /* MessageEmptyView.swift in Sources */,
+				7E4E26422741F9B600377EE2 /* HomeView.swift in Sources */,
 				7E4E26402741F97800377EE2 /* TrainingData.swift in Sources */,
 				7E4E26442741F9C600377EE2 /* SettingsView.swift in Sources */,
 				7E4E26362741F8AB00377EE2 /* AppImage.swift in Sources */,
-				7E4E263A2741F90100377EE2 /* HomeView.swift in Sources */,
+				7E4E263A2741F90100377EE2 /* ReceiveView.swift in Sources */,
 				7E4E26382741F8E800377EE2 /* MainNavigationView.swift in Sources */,
 				7E4E263C2741F93A00377EE2 /* ConnectionViewModel.swift in Sources */,
 			);
