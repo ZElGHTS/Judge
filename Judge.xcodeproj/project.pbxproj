@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E4920F32757B860005473E3 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4920F22757B860005473E3 /* ActivityRingsView.swift */; };
 		7E4E25C02741F7D200377EE2 /* JudgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25BF2741F7D200377EE2 /* JudgeApp.swift */; };
 		7E4E25C22741F7D200377EE2 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E25C12741F7D200377EE2 /* SplashScreenView.swift */; };
 		7E4E25C42741F7D300377EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E25C32741F7D300377EE2 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		7E4E266D2741FEF500377EE2 /* ButtonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E266C2741FEF500377EE2 /* ButtonRowView.swift */; };
 		7E4E266F2741FF2800377EE2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E266E2741FF2800377EE2 /* Image.swift */; };
 		7E4E26712741FF4700377EE2 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E26702741FF4700377EE2 /* ElapsedTimeView.swift */; };
+		7E50B0B22763F9DC00360517 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E50B0B12763F9DC00360517 /* UserManager.swift */; };
 		7E72B37B274E7DFB00D03CEF /* MessageEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E72B37A274E7DFB00D03CEF /* MessageEmptyView.swift */; };
 		7E98599C2745401B0081DC0F /* ConnectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263D2741F95A00377EE2 /* ConnectionProvider.swift */; };
 		7E98599D2745401B0081DC0F /* TrainingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E263F2741F97800377EE2 /* TrainingData.swift */; };
@@ -131,6 +133,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E4920F22757B860005473E3 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
 		7E4E25BC2741F7D200377EE2 /* Judge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Judge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4E25BF2741F7D200377EE2 /* JudgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeApp.swift; sourceTree = "<group>"; };
 		7E4E25C12741F7D200377EE2 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
@@ -185,6 +188,7 @@
 		7E4E266E2741FF2800377EE2 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		7E4E26702741FF4700377EE2 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		7E4E26792742070900377EE2 /* Judge WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Judge WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		7E50B0B12763F9DC00360517 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		7E72B37A274E7DFB00D03CEF /* MessageEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEmptyView.swift; sourceTree = "<group>"; };
 		7E81FFCB2748597B004EDE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7E9859A1274551270081DC0F /* TrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModel.swift; sourceTree = "<group>"; };
@@ -384,6 +388,7 @@
 		7E4E26322741F83100377EE2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7E50B0B02763F9BC00360517 /* Manager */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				7E4E25C12741F7D200377EE2 /* SplashScreenView.swift */,
 				7E4E26352741F8AB00377EE2 /* AppImage.swift */,
 				7E72B37A274E7DFB00D03CEF /* MessageEmptyView.swift */,
+				7E4920F22757B860005473E3 /* ActivityRingsView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -492,6 +498,14 @@
 				7E4E26522741FCDF00377EE2 /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E50B0B02763F9BC00360517 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7E50B0B12763F9DC00360517 /* UserManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		7E98599B27453DB40081DC0F /* Shared */ = {
@@ -756,11 +770,13 @@
 			files = (
 				7E4E25C22741F7D200377EE2 /* SplashScreenView.swift in Sources */,
 				7E4E263E2741F95A00377EE2 /* ConnectionProvider.swift in Sources */,
+				7E50B0B22763F9DC00360517 /* UserManager.swift in Sources */,
 				7E4E25C02741F7D200377EE2 /* JudgeApp.swift in Sources */,
 				7E4E26462741F9D500377EE2 /* ReceivedDataView.swift in Sources */,
 				7E72B37B274E7DFB00D03CEF /* MessageEmptyView.swift in Sources */,
 				7E4E26422741F9B600377EE2 /* HomeView.swift in Sources */,
 				7E4E26402741F97800377EE2 /* TrainingData.swift in Sources */,
+				7E4920F32757B860005473E3 /* ActivityRingsView.swift in Sources */,
 				7E4E26442741F9C600377EE2 /* SettingsView.swift in Sources */,
 				7E4E26362741F8AB00377EE2 /* AppImage.swift in Sources */,
 				7E4E263A2741F90100377EE2 /* ReceiveView.swift in Sources */,

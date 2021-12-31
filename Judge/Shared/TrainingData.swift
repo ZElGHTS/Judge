@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 import WatchConnectivity
 
-class TrainingData: NSObject, ObservableObject, NSSecureCoding {
+class TrainingData: NSObject, ObservableObject, NSSecureCoding, Identifiable {
     static var supportsSecureCoding: Bool = true
     
     let id = UUID()

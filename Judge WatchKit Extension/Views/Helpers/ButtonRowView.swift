@@ -61,7 +61,7 @@ struct InfoButton: View {
             }
             .sheet(isPresented: $showInformation) {
                 ScrollView {
-                    Text(activity == "services" ? "Welcome to the services activity. In this activity, you will be able to practice your serves in precise details, while keeping track on your health. This activity doesn't have a time goal. You will be able to share it to your iPhone after ending it." : "Welcome to the training activity. Here, you will be able to observe your your heart rate, energy consumption, and more! This activity has a time goal of 1 hour to 3 hours. You will be able to share it to your iPhone after ending it.")
+                    Text(activity == "services" ? "Welcome to the services activity. Here, you will be able to practice your serves in precise details, while keeping track on your health. This activity doesn't have a time goal. You will be able to share it to your iPhone after ending it." : "Welcome to the training activity. Here, you will be able to observe your heart rate, energy consumption, and more! This activity has a time goal of 1 hour to 3 hours. You will be able to share it to your iPhone after ending it.")
                         .toolbar(content: {
                             ToolbarItem(placement: .cancellationAction) {
                                 Button("Close") { self.showInformation.toggle() }

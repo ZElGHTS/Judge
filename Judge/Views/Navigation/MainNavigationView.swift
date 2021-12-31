@@ -6,6 +6,7 @@ enum Tab {
 
 struct MainNavigationView: View {
     @State private var selection: Tab = .home
+    @StateObject var trainingManager: TrainingManager = TrainingManager()
     
     var body: some View {
         TabView(selection: $selection) {
@@ -15,12 +16,15 @@ struct MainNavigationView: View {
                         .padding()
                 }
                 .tag(Tab.receive)
+                .environmentObject(trainingManager)
+            //try! NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(UserDefaults.standard.object(forKey: "Trainings") as! Data) as? [TrainingData] ?? [TrainingData]()
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: "house.fill")
                         .padding()
                 }
                 .tag(Tab.home)
+                .environmentObject(trainingManager)
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gear")
